@@ -7,3 +7,25 @@
 .first-img {
     max-width: 300px;
 }
+
+/* bibistar layout */
+
+.star::before,
+.star::after {
+      content: "";
+      display: inline-block;
+      width: 20%;
+      height: 4px;
+      background-color: white;
+      vertical-align: middle;
+      border-radius: 2px;
+}
+
+.star i {
+      vertical-align: middle;
+}
+
+.star.dark-bars::before,
+.star.dark-bars::after {
+      background-color: black;
+}
