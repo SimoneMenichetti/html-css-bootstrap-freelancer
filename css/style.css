@@ -28,9 +28,11 @@
 
 .star i {
       vertical-align: middle;
+      width: 5%;
 }
 
 .star.dark-bars::before,
 .star.dark-bars::after {
       background-color: black;
 }
+
