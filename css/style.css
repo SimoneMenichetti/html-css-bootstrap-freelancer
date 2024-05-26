@@ -43,4 +43,8 @@
       
   }
  
-  
+  /* footer  regole */
+  .learn-more-link{
+      text-decoration: none;
+      color: green;
+  }

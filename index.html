@@ -15,13 +15,13 @@
 </head>
 <body>
 
-    <header class="bg-dark text-light py-4">
+    <header class="bg-dark text-light py-4 fixed-top ">
         <div class="container-md">
               <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                           START BOOTSTRAP
                     </div>
-                    <div class="col-6 text-end">
+                    <div class="col-md-6 text-md-end">
                           <div class="container text-center">
                                 <div class="row align-items-start">
                                   <div class="col">
@@ -41,14 +41,15 @@
   </header>
 
     <main>
-       <!--jumbotron -->
-       <section class="bg-success bg-gradien  p-2 text-white bg-opacity-75">
-            <div class=".container-fluid">
-                <div class="text-center">
+    <!--jumbotron -->
+       <section class="bg-success bg-gradien mt-5 pt-5  p-2 text-white bg-opacity-75">
+            <div class=".container">
+                <div class="row">
+                    <div class="col-12 text-center">
                         <img class="first-img " src="./img/avatar.svg" alt="Avatar">
 
                         <div class="text-white">
-                            <h1>
+                            <h1 class="mt-3 mb-0">
                                 START BOOTSTRAP
                             </h1>
                         <div>
@@ -61,12 +62,13 @@
                                 GRAPHIC ARTIST - WEB DESINER - ILLUSTRATOR
                             </p>
                         </div>
+                    </div>
                 </div>
             </div>
         </section>
         
         
-        <!-- Portfolio -->
+    <!-- Portfolio -->
         <section class="py-3 py-5">
             <div class="container">
                 <div class="text-center mb-3">
@@ -81,7 +83,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <!-- First row -->
+     <!-- First row -->
                         <div class="row mt-2 ">
                             <div class="col-12 col-sm-6 col-md-4 mt-3 ">
                                 <img src="img/cabin.png" class="img-fluid" alt="Image 1 cabin">
@@ -109,7 +111,7 @@
 
 
         
-        <!-- About -->
+    <!-- About -->
             <section class="bg-success bg-gradien  p-2 text-white bg-opacity-75">
                 <div class="container-sm">
                     <div class="text-center mb-3 mt-5">
@@ -131,7 +133,7 @@
                             <p class="fs-5"> You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
                         </div>
                     </div>
-                    <!-- bottone -->
+    <!-- bottone -->
                     <button type="button" class="btn btn-outline-success btn-custom">
                         <i class="fa-solid fa-download mr-2"></i> Download
                     </button>
@@ -139,7 +141,7 @@
             </section>
        
 
-        <!-- contact me -->
+    <!-- contact me -->
         <section>
             <div class="container-fluid mt-5">
                 <div class="text-center mb-3 mt-5">
@@ -156,7 +158,7 @@
             
          
                 <form>
-                    <!-- Name -->
+    <!-- Name -->
                     <div class="form-group row mt-2">
                         <label for="name" class="col-sm-2 col-form-label">Name</label>
                         <div class="col-sm-10 ">
@@ -164,7 +166,7 @@
                         </div>
                     </div>
                     
-                    <!-- Email -->
+    <!-- Email -->
                     <div class="form-group row mt-2">
                         <label for="email" class="col-sm-2 col-form-label">Email address</label>
                         <div class="col-sm-10">
@@ -172,7 +174,7 @@
                         </div>
                     </div>
                     
-                    <!-- Phone Number -->
+    <!-- Phone Number -->
                     <div class="form-group row mt-2">
                         <label for="phone" class="col-sm-2 col-form-label">Phone Number</label>
                         <div class="col-sm-10">
@@ -180,7 +182,7 @@
                         </div>
                     </div>
                     
-                    <!-- Message -->
+     <!-- Message -->
                     <div class="form-group row mt-2">
                         <label for="message" class="col-sm-2 col-form-label">Message</label>
                         <div class="col-sm-10">
@@ -188,7 +190,7 @@
                         </div>
                     </div>
                     
-                    <!-- Submit Button -->
+    <!-- Submit Button -->
                     <div class="form-group row mt-2">
                         <div class="col-sm-3 offset-sm-1">
                             <button type="submit" class="btn btn-success">Send</button>
@@ -198,22 +200,51 @@
             </div>
         </section>
     </main>
-
-    <footer>
-        <!-- main footer -->
-        <section>
-
+    <!-- Footer -->
+    <footer >
+        <section class="bg-dark bg-gradient text-light text-center bg-opacity-70 py-2 mt-5">
+            <div class="container py-4">
+                <div class="row">
+    <!-- Address Section -->
+                    <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex justify-content-around">
+                        <div>
+                            <h5 class="mb-3">LOCATION</h5>
+                            <address>
+                                2215 John Daniel Drive Clark,MO<br>
+                                 54243<br>
+                                
+                            </address>
+                        </div>
+                    </div>
+    <!-- Social Media Icons Section -->
+                    <div class="col-12 col-md-4 mb-4 mb-md-0 d-flex justify-content-around">
+                        <div>
+                            <h5 class="mb-3">AROUND THE WEB</h5>
+                            <div>
+                                <a href="#" class="text-light mr-2 "><i class="fab fa-facebook fa-2x"></i></a>
+                                <a href="#" class="text-light mr-2"><i class="fab fa-twitter fa-2x"></i></a>
+                                <a href="#" class="text-light mr-2"><i class="fab fa-instagram fa-2x"></i></a>
+                                <a href="#" class="text-light"><i class="fab fa-linkedin fa-2x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+    <!-- About Section -->
+                    <div class="col-12 col-md-4 d-flex justify-content-around">
+                        <div>
+                            <h5 class="mb-3">ABOUT FREELANCER</h5>
+                            <p class="mb-3">
+                               Freelance is a free to use, open source Bootstrap theme created by <span class="learn-more-link">Start Bootstrap</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-         <!-- footer bottom -->
-         <section>
-
-         </section>
+    <!-- Copyright Section -->
+        <div class="container-fluid bg-black text-light text-center py-2">
+            <p class="mb-0">© 2024 Your Company. All rights reserved.</p>
+        </div>
     </footer>
-
-
-
-
-    
 </body>
 </html>
