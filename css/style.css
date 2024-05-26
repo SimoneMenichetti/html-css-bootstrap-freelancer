@@ -43,3 +43,8 @@
       
   }
  
+  .form-group{
+      text-align: left;
+      width: 50%;
+      margin-left: 250px;
+    }
