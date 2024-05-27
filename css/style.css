@@ -44,9 +44,15 @@
       
   }
 
-  .btn-outline-success{
+  .bs_nav_link .nav-item a{
+      color: white;
       
   }
+
+  .bs_nav_link .nav-item a:hover{
+      color: green;
+  }
+
  
   /* footer  regole */
   .learn-more-link{
