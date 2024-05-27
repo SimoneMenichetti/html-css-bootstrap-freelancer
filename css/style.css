@@ -122,6 +122,10 @@ header{
       color: green;
   }
 
+  .learn-more-link:hover{
+      text-decoration:underline;
+  }
+
   .bg-gradient{
       background-color:#2C3E50;  
   }
